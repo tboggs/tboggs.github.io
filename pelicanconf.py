@@ -41,8 +41,7 @@ DEFAULT_PAGINATION = 10
 # STATIC_OUT_DIR requires pelican 3.3+.
 #STATIC_OUT_DIR = ''
 #FILES_TO_COPY = [('favicon.png', 'favicon.png')]
-STATIC_PATHS = ['images', 'figures', 'downloads', 'favicon.png', 'images', 'extra/CNAME']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+STATIC_PATHS = ['images', 'figures', 'downloads', 'favicon.png', 'images']
 
 CODE_DIR = 'downloads/code'
 NOTEBOOK_DIR = 'downloads/notebooks'
