@@ -5,8 +5,8 @@ from __future__ import unicode_literals
 import os
 
 AUTHOR = u'Thomas Boggs'
-SITENAME = u'Thomas Boggs'
-SITESUBTITLE = u'A blog about Python, Machine Learning, and Remote Sensing.'
+SITENAME = u'blog.bogatron.net'
+SITESUBTITLE = u'A blog mostly about Python, Machine Learning, and Remote Sensing.'
 SITEURL = '' # Change in publishconf.py and ignore the WARNING.
 
 # Times and dates.
