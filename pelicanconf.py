@@ -30,7 +30,7 @@ NEWEST_FIRST_ARCHIVES = False
 #GITHUB_SHOW_USER_LINK = True
 
 # Blogroll.
-LINKS = (('Spectral Python (SPy)', 'http://spectralpython.sourceforge.net'),)
+LINKS = (('Spectral Python (SPy)', 'http://spectralpython.net'),)
 
 # Social widget.
 #SOCIAL = (('You can add links in your config file', '#'),
