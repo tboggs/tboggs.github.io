@@ -1688,6 +1688,17 @@ pre.ipynb {
   font-size: 13px;
 }
 
+/* remove the prompt div from text cells */
+div.text_cell .prompt {
+    display: none;
+}
+
+/* remove horizontal padding from text cells, */
+/* so it aligns with outer body text */
+div.text_cell_render {
+    padding: 0.5em 0em;
+}
+
 img.anim_icon{padding:0; border:0; vertical-align:middle; -webkit-box-shadow:none; -box-shadow:none}
 </style>
 
@@ -1820,7 +1831,7 @@ In&nbsp;[1]:
 
 </div>
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Next, we'll subdivide the triangle into a triangular mesh and plot the original and subdivided triangls.</p>
+<p>Next, we'll subdivide the triangle into a triangular mesh and plot the original and subdivided triangles.</p>
 </div>
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
@@ -3782,7 +3793,7 @@ BeT/A252NZKgWk65AAAAAElFTkSuQmCC
     <section>
         <h1>Blogroll</h1>
         <ul>
-            <li><a href="http://spectralpython.sourceforge.net" target="_blank">Spectral Python (SPy)</a></li>
+            <li><a href="http://spectralpython.net" target="_blank">Spectral Python (SPy)</a></li>
         </ul>
     </section>
 
@@ -3824,7 +3835,7 @@ BeT/A252NZKgWk65AAAAAElFTkSuQmCC
     <section>
         <h1>Blogroll</h1>
         <ul>
-            <li><a href="http://spectralpython.sourceforge.net" target="_blank">Spectral Python (SPy)</a></li>
+            <li><a href="http://spectralpython.net" target="_blank">Spectral Python (SPy)</a></li>
         </ul>
     </section>
 
