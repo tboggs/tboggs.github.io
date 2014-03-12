@@ -52,7 +52,7 @@ In&amp;nbsp;[1]:
 
 &lt;/div&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;Next, we'll subdivide the triangle into a triangular mesh and plot the original and subdivided triangls.&lt;/p&gt;
+&lt;p&gt;Next, we'll subdivide the triangle into a triangular mesh and plot the original and subdivided triangles.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing code_cell vbox"&gt;
 &lt;div class="input hbox"&gt;
