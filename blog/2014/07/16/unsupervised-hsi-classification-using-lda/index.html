@@ -1700,9 +1700,17 @@ div.text_cell_render {
 }
 
 img.anim_icon{padding:0; border:0; vertical-align:middle; -webkit-box-shadow:none; -box-shadow:none}
+
+div.collapseheader {
+    width=100%;
+    background-color:#d3d3d3;
+    padding: 2px;
+    cursor: pointer;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 </style>
 
-<script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
 <script type="text/javascript">
 init_mathjax = function() {
     if (window.MathJax) {
@@ -1722,6 +1730,23 @@ init_mathjax = function() {
 }
 init_mathjax();
 </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+    $("div.collapseheader").click(function () {
+    $header = $(this).children("span").first();
+    $codearea = $(this).children(".input_area");
+    console.log($(this).children());
+    $codearea.slideToggle(500, function () {
+        $header.text(function () {
+            return $codearea.is(":visible") ? "Collapse Code" : "Expand Code";
+        });
+    });
+});
+});
+</script>
+
 
 
   <!-- http://t.co/dKP3o1e -->
@@ -1736,9 +1761,9 @@ init_mathjax();
   <script src="http://blog.bogatron.net/theme/js/ender.js"></script>
   <script src="http://blog.bogatron.net/theme/js/octopress.js" type="text/javascript"></script>
 
-  <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic"
+  <link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic"
         rel="stylesheet" type="text/css">
-  <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic"
+  <link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic"
         rel="stylesheet" type="text/css">
 </head>
 
@@ -1748,17 +1773,16 @@ init_mathjax();
     <h2>A blog mostly about Python, Machine Learning, and Remote Sensing.</h2>
 </hgroup></header>
   <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss">RSS</a></li>
+  <li><a href="/atom.xml" rel="subscribe-atom">Atom</a></li>
 </ul>
 
-<!-- TODO: add search here
-<form action="" method="get">
+
+<form action="//google.com/search" method="get">
   <fieldset role="search">
-    <input type="hidden" name="q" value="site:http://blog.bogatron.net" />
+    <input type="hidden" name="q" value="site:blog.bogatron.net" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
 </form>
--->
 
 <ul class="main-navigation">
     <li><a href="/archives.html">Archives</a></li>
@@ -17070,56 +17094,7 @@ RK5CYII=
 <section class="googleplus">
   <h1>
     <a href="https://plus.google.com/+ThomasBoggs?rel=author">
-      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
-      Google+
-    </a>
-  </h1>
-</section>
-</aside><aside class="sidebar">
-  <section>
-    <h1>Recent Posts</h1>
-    <ul id="recent_posts">
-      <li class="post">
-          <a href="http://blog.bogatron.net/blog/2014/07/16/unsupervised-hsi-classification-using-lda/">Unsupervised Classification of Hyperspectral Images using Latent Dirichlet Allocation</a>
-      </li>
-      <li class="post">
-          <a href="http://blog.bogatron.net/blog/2014/03/11/mahalanobis-whitening/">Whitening Characteristics of the Mahalanobis Distance</a>
-      </li>
-      <li class="post">
-          <a href="http://blog.bogatron.net/blog/2014/02/02/visualizing-dirichlet-distributions/">Visualizing Dirichlet Distributions with Matplotlib</a>
-      </li>
-      <li class="post">
-          <a href="http://blog.bogatron.net/blog/2014/01/07/anomalously-nonanomalous-results/">Anomalously Non-Anomalous Anomaly Detection Results</a>
-      </li>
-    </ul>
-  </section>
-  <section>
-      
-    <h1>Categories</h1>
-    <ul id="recent_posts">
-        <li><a href="http://blog.bogatron.net/category/machine-learning.html">machine learning</a></li>
-        <li><a href="http://blog.bogatron.net/category/remote-sensing.html">remote sensing</a></li>
-        <li><a href="http://blog.bogatron.net/category/statistics.html">statistics</a></li>
-    </ul>
-  </section>
- 
-
-  <section>
-  <h1>Tags</h1>
-    <a href="http://blog.bogatron.net/tag/dirichlet.html">Dirichlet</a>,    <a href="http://blog.bogatron.net/tag/anomaly-detection.html">anomaly detection</a>,    <a href="http://blog.bogatron.net/tag/hyperspectral.html">hyperspectral</a>,    <a href="http://blog.bogatron.net/tag/rx.html">RX</a>,    <a href="http://blog.bogatron.net/tag/mahalanobis.html">Mahalanobis</a>,    <a href="http://blog.bogatron.net/tag/matplotlib.html">matplotlib</a>,    <a href="http://blog.bogatron.net/tag/topic-models.html">topic models</a>,    <a href="http://blog.bogatron.net/tag/statistics.html">statistics</a>,    <a href="http://blog.bogatron.net/tag/latent-dirichlet-allocation.html">Latent Dirichlet Allocation</a>,    <a href="http://blog.bogatron.net/tag/aviris.html">AVIRIS</a>  </section>
-
-
-    <section>
-        <h1>Blogroll</h1>
-        <ul>
-            <li><a href="http://spectralpython.net" target="_blank">Spectral Python (SPy)</a></li>
-        </ul>
-    </section>
-
-<section class="googleplus">
-  <h1>
-    <a href="https://plus.google.com/+ThomasBoggs?rel=author">
-      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      <img src="//www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
       Google+
     </a>
   </h1>
@@ -17127,7 +17102,7 @@ RK5CYII=
 </aside>    </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - Thomas Boggs -
+    Copyright &copy;  2014  - Thomas Boggs -
   <span class="credit">Powered by <a href="http://getpelican.com">Pelican</a></span>
 </p></footer>
     <script type="text/javascript">
@@ -17155,7 +17130,7 @@ RK5CYII=
           var disqus_title = 'Unsupervised Classification of Hyperspectral Images using Latent Dirichlet Allocation';
 	  (function() {
 	    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-	    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+	    dsq.src = "//" + disqus_shortname + '.disqus.com/embed.js';
 	    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
 	   })();
 	</script>
@@ -17164,7 +17139,7 @@ RK5CYII=
       var twitterWidgets = document.createElement('script');
       twitterWidgets.type = 'text/javascript';
       twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
       document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
     })();
   </script>
