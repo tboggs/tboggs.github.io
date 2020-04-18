@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>blog.bogatron.net - Thomas Boggs</title><link>http://blog.bogatron.net/</link><description>A blog mostly about Python, Machine Learning, and Remote Sensing.</description><lastBuildDate>Wed, 16 Jul 2014 16:13:00 -0400</lastBuildDate><item><title>Unsupervised Classification of Hyperspectral Images using Latent Dirichlet Allocation</title><link>http://blog.bogatron.net/blog/2014/07/16/unsupervised-hsi-classification-using-lda/</link><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="Latent-Dirichlet-Allocation-(LDA)"&gt;Latent Dirichlet Allocation (LDA)&lt;a class="anchor-link" href="#Latent-Dirichlet-Allocation-(LDA)"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href="http://en.wikipedia.org/wiki/Latent_Dirichlet_allocation"&gt;Latent Dirichlet Allocation&lt;/a&gt; (LDA) is a type of probabilistic &lt;a href="http://en.wikipedia.org/wiki/Topic_model"&gt;topic model&lt;/a&gt; commonly used in natural language processing to extract topics from large collections of documents in an unsupervised manner. LDA assumes that each document in a corpus (collection of documents) is associated with a mixture of …&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Thomas Boggs</dc:creator><pubDate>Wed, 16 Jul 2014 16:13:00 -0400</pubDate><guid isPermaLink="false">tag:blog.bogatron.net,2014-07-16:/blog/2014/07/16/unsupervised-hsi-classification-using-lda/</guid><category>machine learning</category><category>Latent Dirichlet Allocation</category><category>hyperspectral</category><category>topic models</category></item><item><title>Whitening Characteristics of the Mahalanobis Distance</title><link>http://blog.bogatron.net/blog/2014/03/11/mahalanobis-whitening/</link><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;&lt;a href="http://en.wikipedia.org/wiki/Mahalanobis_distance"&gt;Mahalanobis distance&lt;/a&gt; is
+a metric used to compare a vector to a multivariate normal distribution with a
+given mean vector ($\boldsymbol{\mu}$) and covariance matrix
+($\boldsymbol{\Sigma}$). It is often used to detect statistical outliers
+(e.g., in the RX anomaly detector) and also appears in the exponential term
+of …&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Thomas Boggs</dc:creator><pubDate>Tue, 11 Mar 2014 23:31:00 -0400</pubDate><guid isPermaLink="false">tag:blog.bogatron.net,2014-03-11:/blog/2014/03/11/mahalanobis-whitening/</guid><category>statistics</category><category>RX</category><category>anomaly detection</category><category>Mahalanobis</category></item><item><title>Visualizing Dirichlet Distributions with Matplotlib</title><link>http://blog.bogatron.net/blog/2014/02/02/visualizing-dirichlet-distributions/</link><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;This post describes how I went about visualizing probability density functions
+of 3-dimensional Dirichlet distributions with &lt;a href="http://matplotlib.org"&gt;matplotlib&lt;/a&gt;.
+If you're already familiar with the Dirichlet distribution, you might want to skip
+the next section.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="Rolling-Dice"&gt;Rolling Dice&lt;a class="anchor-link" href="#Rolling-Dice"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;To understand what the Dirichlet distribution describes, it is useful to
+consider how it can …&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Thomas Boggs</dc:creator><pubDate>Sun, 02 Feb 2014 23:59:00 -0500</pubDate><guid isPermaLink="false">tag:blog.bogatron.net,2014-02-02:/blog/2014/02/02/visualizing-dirichlet-distributions/</guid><category>statistics</category><category>matplotlib</category><category>Dirichlet</category><category>statistics</category></item><item><title>Anomalously Non-Anomalous Anomaly Detection Results</title><link>http://blog.bogatron.net/blog/2014/01/07/anomalously-nonanomalous-results/</link><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="The-RX-Anomaly-Detector"&gt;The RX Anomaly Detector&lt;a class="anchor-link" href="#The-RX-Anomaly-Detector"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;In image processing, anomaly detectors are algorithms used to detect image
+pixels that are sufficiently different than other pixels in the same image (or
+within a local neighborhood of the pixel being evaluated).
+The RX anomaly detector [1] represents each pixel in an image as a …&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Thomas Boggs</dc:creator><pubDate>Tue, 07 Jan 2014 12:34:00 -0500</pubDate><guid isPermaLink="false">tag:blog.bogatron.net,2014-01-07:/blog/2014/01/07/anomalously-nonanomalous-results/</guid><category>remote sensing</category><category>hyperspectral</category><category>RX</category><category>anomaly detection</category><category>AVIRIS</category></item></channel></rss>
