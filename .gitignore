@@ -2,3 +2,5 @@
 output
 _nb_header.html
 *.pid
+content/.ipynb_checkpoints
+*~

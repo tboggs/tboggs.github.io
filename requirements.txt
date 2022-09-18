@@ -1,0 +1,8 @@
+ghp-import
+ipython
+jupyter
+nbconvert<6.0
+notebook
+matplotlib
+pelican
+pelican_jupyter
