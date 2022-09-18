@@ -41,11 +41,11 @@ LINKS = (('Spectral Python (SPy)', 'http://spectralpython.net'),)
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+#RELATIVE_URLS = False
 
 # my additions
 CODE_DIR = 'downloads/code'
-#NOTEBOOK_DIR = 'downloads/notebooks'
+NOTEBOOK_DIR = 'content'
 #STATIC_PATHS = ['images', 'figures', 'downloads', 'favicon.png', 'images', 'extra/CNAME']
 STATIC_PATHS = ['images', 'downloads', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}

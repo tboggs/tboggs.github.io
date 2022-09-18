@@ -4,4 +4,4 @@ comments: true
 slug: mahalanobis-whitening
 tags: RX, anomaly detection, Mahalanobis
 category: statistics
-Subcells: [2, None]
+Subcells: [1, None]

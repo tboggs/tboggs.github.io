@@ -4,4 +4,4 @@ comments: true
 slug: unsupervised-hsi-classification-using-lda
 tags: Latent Dirichlet Allocation, hyperspectral, topic models
 category: machine learning
-Subcells: [2, None]
+Subcells: [1, None]

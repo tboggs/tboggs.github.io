@@ -4,4 +4,4 @@ comments: true
 slug: visualizing-dirichlet-distributions
 tags: matplotlib, Dirichlet, statistics
 category: statistics
-Subcells: [2, None]
+Subcells: [1, None]
