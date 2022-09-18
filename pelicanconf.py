@@ -5,7 +5,7 @@ from pelican_jupyter import markup as nb_markup
 AUTHOR = 'Thomas Boggs'
 SITENAME = 'blog.bogatron.net'
 SITESUBTITLE = u'A blog mostly about Python, Machine Learning, and Remote Sensing.'
-SITEURL = ''
+SITEURL = 'https://blog.bogatron.net'
 
 PATH = 'content'
 
